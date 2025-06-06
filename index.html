@@ -81,11 +81,8 @@
     <h1>Plain Language Settlement Notice Tool</h1>
   </header>
   <main>
-    <p class="description">
-      Upload your Settlement Agreement to receive a draft long form notice.
-    </p>
     <form action="https://primary-production-5bb2b.up.railway.app/webhook/dffa7dde-c90a-4893-b26c-64869fadd722" method="POST" enctype="multipart/form-data">
-      <label for="settlementFile">Upload Settlement Agreement:</label>
+      <label for="settlementFile">Upload your Settlement Agreement to receive a draft long form notice.</label>
       <input type="file" id="settlementFile" name="settlementFile" accept=".pdf,.doc,.docx,.txt" required>
       <button type="submit">Submit</button>
     </form>
